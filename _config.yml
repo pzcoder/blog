@@ -1,7 +1,7 @@
 #markdown: rdiscount
 
 permalink: /:title/
-url: https://hyligithub.github.io/blogdemo/
+url: https://pzcoder.github.io/blog/
 #highlighter: pygments
 highlighter: rouge
 gems: [jekyll-paginate]
