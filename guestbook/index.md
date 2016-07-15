@@ -5,7 +5,7 @@ comments: yes
 thread: 616
 ---
 
-![come on](guest.jpg)
+![come on](guestbook.jpg)
 
 声明：
 主要是个人学习
