@@ -1,1 +1,17 @@
-﻿baseurl: /blog
+#markdown: rdiscount
+
+permalink: /:title/
+url: https://hyligithub.github.io/blogdemo/
+#highlighter: pygments
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 100
+paginate_path: "page:num"
+name: 匆匆那些年
+description: 匆匆那些年
+author: andy_li
+email: XXXX@163.com
+duoshuo: thinkingx
+#hub: andy_li
+safe: false
+about: "mini coder"
