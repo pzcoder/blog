@@ -10,7 +10,7 @@ layout: default
   <span class="categories">
     分类
     {% for cat in page.categories %}
-    <a href="/blogdemo/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+    <a href="/blog/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
     {% endfor %}
   </span>
   {% endif %}
@@ -19,7 +19,7 @@ layout: default
   <span class="tags">
     标签
     {% for tag in page.tags %}
-    <a href="/blogdemo/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+    <a href="/blog/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
     {% endfor %}
   </span>
   {% endif %}
@@ -30,9 +30,9 @@ layout: default
 <section align="right">
   <br/>
   <span>
-    <a {% if page.previous %} href="/blogdemo/{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>
+    <a {% if page.previous %} href="/blog/{{ page.previous.url }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>
     &nbsp;&nbsp;&nbsp;
-    <a {% if page.next %} href="/blogdemo/{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
+    <a {% if page.next %} href="/blog/{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
   </span>
 </section>
 {% include comments.md %}
